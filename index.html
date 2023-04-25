@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Moza Aurora's Page</title>
+
+  <style>
+
+    body {
+      background-image: url('bg.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav>
+    <P class="welcome-header">welcome, </P>
+    <UL>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about me.html">ABOUT ME</a></li>
+      <li><a href="portofolio.html">PORTFOLIO</a></li>
+      <li><a href="contacts.html">CONTACTS</a></li>
+    </UL>
+  </nav>
+
+  <div class="container">
+    <div class="display-date">
+      <span id="day">day</span>,
+      <span id="daynum">00</span>
+      <span id="month">month</span>
+      <span id="year">0000</span>
+    </div>
+    <div class="display-time"></div>
+  </div>
+
+  <div class="first-page">
+    <p class="welcome-title">WELCOME !</p>
+
+    <marquee class="moving-text"> TO MOZA AURORA'S WEBSITE</marquee>
+  </div>
+
+  <script>
+    const displayTime = document.querySelector(".display-time");
+    // Time
+    function showTime() {
+      let time = new Date();
+      displayTime.innerText = time.toLocaleTimeString("en-US", { hour12: false });
+      setTimeout(showTime, 1000);
+    }
+
+    showTime();
+
+    // Date
+    function updateDate() {
+      let today = new Date();
+
+      // return number
+      let dayName = today.getDay(),
+        dayNum = today.getDate(),
+        month = today.getMonth(),
+        year = today.getFullYear();
+
+      const months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+      const dayWeek = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ];
+      // value -> ID of the html element
+      const IDCollection = ["day", "daynum", "month", "year"];
+      // return value array with number as a index
+      const val = [dayWeek[dayName], dayNum, months[month], year];
+      for (let i = 0; i < IDCollection.length; i++) {
+        document.getElementById(IDCollection[i]).firstChild.nodeValue = val[i];
+      }
+    }
+
+    updateDate();
+  </script>
+
+</body>
+
+</html>
