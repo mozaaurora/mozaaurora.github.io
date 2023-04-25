@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Moza Aurora's Page</title>
+
+  <style>
+    body {
+      background-image: url('bg.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 3000px;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+
+  <nav style="position: fixed; top: 0px;">
+    <P class="welcome-header">welcome, </P>
+
+    <UL>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about me.html">ABOUT ME</a></li>
+      <li><a href="portofolio.html">PORTFOLIO</a></li>
+      <li><a href="contacts.html">CONTACTS</a></li>
+    </UL>
+  </nav>
+
+  <p class="portfolio-title">Portfolio</p>
+
+  <div class="search-bar">
+    <p class="based-on">Based on</p>
+
+    <div class="search-pic">
+      <img src="search.png" height="33px">
+    </div>
+  </div>
+
+  <div class="row-1">
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic3.png">
+      <img src="portfolio/pic4.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic5.png">
+      <img src="portfolio/pic6.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic3.png">
+      <img src="portfolio/pic4.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic5.png">
+      <img src="portfolio/pic6.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic3.png">
+      <img src="portfolio/pic4.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic5.png">
+      <img src="portfolio/pic6.png">
+    </div>
+
+    <div class="column">
+      <img src="portfolio/pic1.png">
+      <img src="portfolio/pic2.png">
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrow.png" height="30px"></button>
+
+  <div class="footer">
+    <p class="contactme-footer">Contact Me</p>
+
+    <div style="display: flex; flex-direction: row; margin-left: 50px;  margin-bottom: 5px;">
+      <p class="email-footer">Email</p>
+      <p class="email-footer-isi">mozaaurora11@gmail.com</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-left: 50px; margin-bottom: 5px;">
+      <p class="phone-footer">Phone</p>
+      <p class="phone-footer-isi">+232323423234</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-left: 50px;">
+      <p class="wechat-footer">WeChat ID</p>
+      <p class="wechat-footer-isi">sdfasdfad</p>
+    </div>
+  </div>
+
+  <script>
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+
+.portfolio-title {
+    width: 100%;
+    height: 200px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 260px;
+    text-align: center;
+    text-indent: 7px;
+    color: #FF5A75;
+  }
+
+  .search-bar {
+    position: sticky;
+    top: 60px;
+    display: flex;
+    height: 50px;
+    width: calc(100% - 160px);
+    background-color: #fff;
+    border-radius: 23px;
+    margin: 5px 80px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .based-on {
+    margin-left: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .search-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 197px;
+    height: 43px;
+    background: #FF5A75;
+    border-radius: 12px;
+  }
+
+  .row-1 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1497px;
+    height: 290px;
+    left: 0px;
+    top: 2950px;
+    background: #FF617B;
+  }
+
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #ffffff;
+    /* Set a background color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 8px;
+    /* Some padding */
+    border-radius: 32px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

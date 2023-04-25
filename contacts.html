@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Moza Aurora's Page</title>
+  <style>
+    body {
+      background-image: url('bg.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 600px;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contacts.css">
+</head>
+
+<body>
+
+  <header>
+    <nav style="position: fixed; top: 0px;">
+      <P class="welcome-header">welcome, </P>
+
+      <UL>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about me.html">ABOUT ME</a></li>
+        <li><a href="portofolio.html">PORTFOLIO</a></li>
+        <li><a href="contacts.html">CONTACTS</a></li>
+      </UL>
+    </nav>
+  </header>
+
+  <p class="welcoming-question">What can we help you with</p>
+
+  <div class="question-box">
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+
+        .print-container,
+        .print-container * {
+          visibility: visible;
+        }
+        .general-inquiries,
+        .general-inquiries * {
+          visibility: visible;
+        }
+      }
+    </style>
+
+    <p class="general-inquiries">GENERAL INQUIRIES</p>
+
+    <form>
+      <div class="form print-container">
+        <div style="border-bottom: 2px solid #ffa7b5; width: 1150px;">
+          <input class="form-name" type="text" placeholder="Name*" required>
+        </div>
+
+        <div style="border-bottom: 2px solid #ffa7b5; width: 1150px;">
+          <input class="form-email" type="text" placeholder="Email*" required>
+        </div>
+
+        <div>
+          <input class="form-code" list="code" name="code" required placeholder="Code*">
+
+          <datalist id="code" style="border: none;">
+            <option value="+62"></option>
+            <option value="+86"></option>
+          </datalist>
+
+          <input class="form-phonenumber" type="text" placeholder="Phone Number*" required>
+        </div>
+
+        <div style="border-bottom: 2px solid #ffa7b5; width: 1150px;">
+          <input class="form-company" type="text" placeholder="Company Name">
+        </div>
+
+        <textarea class="form-content" type="text" placeholder="Content*" required>
+        </textarea>
+
+        <div style="display: flex; flex-direction: row;">
+          <input class="form-submit" type="submit" value="SUBMIT">
+
+          <input class="form-print" type="submit" value="PRINT" onclick="window.print();">
+        </div>
+    </form>
+  </div>
+  </div>
+
+  <div class="print-container"
+    style="border-bottom: 2px solid #ffa7b5; width: 100px; position: absolute; top: 458px; left: 171px;"></div>
+
+  <div class="print-container"
+    style="border-bottom: 2px solid #ffa7b5; width: 1038px; position: absolute; top: 458px; left: 285px;"></div>
+
+  <div style="margin-top: 70px; margin-left: 70px; width: 1358px; border: 2px solid #FF5A75;"></div>
+
+  <p class="or-just">Or just contact us through</p>
+
+  <div class="my-info">
+    <div class="gmail">
+
+      <a class="gmail-i" href="mailto: mozaaurora11@gmail.com"
+        style="width: 333px; height: 328px; text-decoration: none; display: flex; align-items: center;">
+
+        <img src="gmail icon.png" alt="gmail" style="width: 95px; height: 70px;">
+
+        <p class="gmail-i1">Email</p>
+
+        <p class="gmail-i2">mozaaurora11<br>
+          @gmail.com</p>
+      </a>
+    </div>
+
+    <div class="phone">
+      <a class="phone-i" href=”tel:+232323423234“
+        style="width: 333px; height: 328px; text-decoration: none; display: flex; align-items: center; flex-direction: column;">
+
+        <img src="phone icon.png" alt="phone" style="width: 75px; height: 75px;">
+
+        <p class="phone-i1">Phone</p>
+
+        <p class="phone-i2">+23 2323423234</p>
+      </a>
+    </div>
+
+    <div class="wechat">
+      <a class="wechat-i" href="https://web.wechat.com/uklccp?lang=en_US&t=v2/index" target="_blank"
+        style="width: 333px; height: 328px; text-decoration: none; display: flex; align-items: center; flex-direction: column;">
+
+        <img src="wechat icon.png" alt="phone" style="width: 75px; height: 75px;">
+
+        <p class="wechat-i1">WeChat ID</p>
+
+        <p class="wechat-i2"">asdfasdf</p>
+      </a>
+    </div>
+  </div>
+
+  <p class=" description">Click the box white area to open Mail; Phone; and WeChat</p>
+
+        <div class="footer">
+          <p class="contactme-footer">Contact Me</p>
+
+          <div style="display: flex; flex-direction: row; margin-left: 50px;  margin-bottom: 5px;">
+            <p class="email-footer">Email</p>
+            <p class="email-footer-isi">mozaaurora11@gmail.com</p>
+          </div>
+
+          <div style="display: flex; flex-direction: row; margin-left: 50px; margin-bottom: 5px;">
+            <p class="phone-footer">Phone</p>
+            <p class="phone-footer-isi">+232323423234</p>
+          </div>
+
+          <div style="display: flex; flex-direction: row; margin-left: 50px;">
+            <p class="wechat-footer">WeChat ID</p>
+            <p class="wechat-footer-isi">sdfasdfad</p>
+          </div>
+        </div>
+
+</body>
+
+</html>

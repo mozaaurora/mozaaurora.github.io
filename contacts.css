@@ -1,0 +1,298 @@
+
+.welcoming-question {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    text-indent: 7px;
+    color: #FF5A75;
+  }
+
+  .question-box {
+    margin-left: 105px;
+    margin-top: 10px;
+    width: 1300px;
+    height: 690px;
+    background: #FFFFFF;
+    border-radius: 23px;
+  }
+
+  .general-inquiries {
+    line-height: 100px;
+    margin-left: 65px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 65px;
+    height: 550px;
+    justify-content: space-between;
+  }
+
+  .form-name {
+    height: 29px;
+    width: 1150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+  }
+
+  .form-email {
+    height: 29px;
+    width: 1150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+  }
+
+  .form-code {
+    height: 29px;
+    width: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+  }
+
+  .form-phonenumber {
+    margin-left: 13px;
+    height: 29px;
+    width: 1020px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+  }
+
+  .form-company {
+    height: 29px;
+    width: 1150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    border: none;
+  }
+
+  .form-content {
+    height: 120px;
+    width: 1150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px solid #ffa7b5
+  }
+
+  .form-submit {
+    width: 130px;
+    height: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    text-indent: 7px;
+    color: #000000;
+    display: block;
+    background: #ffffff;
+    border: 2px solid #FF8C88;
+    border-radius: 9px;
+    text-align: center;
+    padding: 2px;
+  }
+
+  .form-print {
+    width: 130px;
+    height: 35px;
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    text-indent: 7px;
+    color: #000000;
+    display: block;
+    background: #ffffff;
+    border: 2px solid #FF8C88;
+    border-radius: 9px;
+    text-align: center;
+    padding: 2px;
+  }
+
+  .or-just {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+    text-indent: 7px;
+    color: #FF5A75;
+  }
+
+  .my-info {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 230px;
+    width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gmail {
+    width: 333px;
+    height: 328px;
+    background: #FFFFFF;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gmail-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .gmail-i1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+    margin-top: 20px;
+  }
+
+  .gmail-i2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .phone-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .wechat-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .phone {
+    width: 333px;
+    height: 328px;
+    background: #FFFFFF;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-i1 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .phone-i2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .wechat {
+    width: 333px;
+    height: 328px;
+    background: #FFFFFF;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wechat-i1 {
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .wechat-i2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .description {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-indent: 7px;
+    color: #000000;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1497px;
+    height: 290px;
+    margin-top: 70px;
+    background: #FF617B;
+  }

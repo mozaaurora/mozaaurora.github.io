@@ -1,0 +1,70 @@
+.first-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .welcome-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    text-indent: 7px;
+    color: #FF5A75;
+  }
+
+  .moving-text {
+    width: 290px;
+    height: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    text-indent: 5px;
+    color: black;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+  html {
+    font-size: 62.5%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+  }
+
+  .display-date {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FF5A75;
+  }
+
+  .display-time {
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    max-width: fit-content;
+    border: 2px solid #FF5A75;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: ease-in-out 0.1s;
+    transition-property: background, box-shadow, color;
+  }
+
+  .display-time:hover {
+    box-shadow: 0 0 30px #FF5A75;
+    color: black;
+    cursor: pointer;
+  }
